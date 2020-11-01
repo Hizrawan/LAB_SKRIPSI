@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "shop",
+    "slug": "shop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "would like access to your photo gallery",
+        "NSCameraUsageDescription" : "would like to use your camera",
+        "NSPhotoLibraryAddUsageDescription" : "would like to save photos to your photo gallery",
+        "NSMicrophoneUsageDescription" :"would like to use your microphone (for videos)"
+      }
+      
+        
+      
+    },
+    "android": {
+      "useNextNotificationsApi": true
+      
+    }
+  }
+}
